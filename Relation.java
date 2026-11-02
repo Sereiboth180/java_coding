@@ -1,11 +1,14 @@
-public class Relation{
-    public static void main(String[] args){
-        //Relational operator: Use this to compare the value
-        //Example 1
-        int age = 18;
-        System.out.println(age>= 18); //Output True
-        System.out.println(age<18);//Output False
-        System.out.println(age != 18);//Output False
-        System.out.println(age == 18);//Output True
+public class Relation {
+    public static void main(String[] args) {
+
+        int mark = 85;
+
+        System.out.println("Mark: " + mark);
+
+        System.out.println("Passed: " + (mark >= 50));
+        System.out.println("Excellent: " + (mark >= 80));
+        System.out.println("Perfect Score: " + (mark == 100));
+        System.out.println("Failed: " + (mark < 50));
+        System.out.println("Not Full Mark: " + (mark != 100));
     }
 }
